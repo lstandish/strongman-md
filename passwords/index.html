@@ -119,10 +119,17 @@
 <p>Free Open Source Online Password Manager</p>
 <hr />
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link"></a></h2>
-<p>Strongman is a <strong>free open-source online password manager</strong> written in javascript with a touch of php. It uses a master password combined with username and domain to create "computed" passwords (similar to <a href="https://lesspass.com">lesspass</a>).  It can also use AES-256 encryption to store "custom" passwords and "secure notes" on a web server. The emphasis is on <strong>speed</strong>, <a href="#strongman-security"><strong>security</strong></a>, and <strong>simplicity</strong>. <a href="https://strongman.tech/app/index.php">Open Strongman Password Manager</a></p>
+<p>Strongman is a <strong>free open-source online password manager</strong> written in javascript with a touch of php. </p>
+<p><strong>Strongman has two basic modes of functionality:</strong></p>
+<ol>
+<li>It uses a master password combined with the username and domain to create "computed" passwords (similar to <a href="https://lesspass.com">lesspass</a>). In this mode, only a "password profile" is stored on the server. The site password itself is not stored.</li>
+<li>It can use the master password to encrypt (AES-256) "custom" passwords and "secure notes," which are then stored on a web server.</li>
+</ol>
+<p>The emphasis is on <strong>speed</strong>, <a href="#strongman-security"><strong>security</strong></a>, and <strong>simplicity</strong>. <a href="https://strongman.tech/app/index.php">Open Strongman Password Manager</a></p>
 <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link"></a></h2>
 <ul>
 <li>Strongman is completely free and open source. </li>
+<li><a href="#diceware-passwords">Diceware</a> master passphrases are strongly recommended, and in fact <strong>must be used</strong> unless overridden by a setting.</li>
 <li>It provides both lesspass-style computed passwords as well as AES-256-encrypted "custom" passwords.</li>
 <li>Strongman does all password computations as well as AES-256 encryption/decryption of custom passwords <strong>in your browser</strong>. Your master password is never transmitted to the server.</li>
 <li>Being an online service, Strongman is available from all your Internet-connected devices. There is no need to synchronize password databases among devices.</li>
@@ -162,11 +169,11 @@ empty: encrypted secure notes (none in this case)
 1542057929: timestamp to keep track of password age
 </code></pre>
 
-<p>In sum, computed passwords involve no password storage whatsoever.  However, they are very inflexible.  They cannot be modified by the user other than specifying the character set and length.  So if you already have some secure passwords that you'd like to keep using with Strongman, computed passwords are not a solution. Plus, as explained in <a href="#why-i-created-strongman">Why I Created Strongman</a>, the master password cannot be changed without changing all the computed passwords.</p>
-<p>To solve this problem, Strongman allows storing of AES-encrypted passwords and notes, described in the next section.</p>
+<p>In sum, computed passwords involve no password storage whatsoever.  However, they are very inflexible.  Computed passwords cannot be modified by the user other than specifying the character set and length.  So if you already have some secure passwords that you'd like to keep using with Strongman, computed passwords are not a solution. Plus, as explained in <a href="#why-i-created-strongman">Why I Created Strongman</a>, the master password cannot be changed without changing all the computed passwords.</p>
+<p>To solve this problem, Strongman allows storing AES-encrypted passwords and notes, described in the next section.</p>
 <h4 id="aes-encrypted-passwords-and-notes"><strong>AES-Encrypted Passwords and Notes</strong><a class="headerlink" href="#aes-encrypted-passwords-and-notes" title="Permanent link"></a></h4>
-<p>Whenever you need to store a <em>particular</em> password (rather than use a computed one) you click the "Save" button in Strongman. That causes the password to be encrypted (by the webpage using javascript) and then sent to the server for storage.  This is military-grade encryption, and in my opinion is every bit as secure as the computed passwords. When using encrypted passwords, Strongman remains <em>stateless</em>. Futhermore, the AES-encryption takes place in the browser, before being transmitted to the server for storage.</p>
-<p>In addition to encrypted passwords, Strongman offers encrypted <em>secure notes</em>.  This allows you to add any sort of note to either a computed or an encrypted password entry.</p>
+<p>Whenever you need to store a <em>particular</em> password (rather than use a computed one) you click the "Save" button in Strongman. That causes the password to be encrypted (by the webpage, using javascript) and then sent to the server for storage.  This is military-grade encryption, and in my opinion is every bit as secure as the computed passwords. When using encrypted passwords, Strongman remains <em>stateless</em>. Futhermore, the AES-encryption takes place in the browser, before being transmitted to the server for storage.</p>
+<p>In addition to encrypted passwords, Strongman offers encrypted <em>secure notes</em>.  This allows you to add any sort of information to either a computed or an encrypted password entry.</p>
 <p>Here's an example of an encrypted password entry from my own Strongman account:</p>
 <pre><code class="bash">[wimaxcr.com]
 invoice@ = 15,14,1,fc430283546cf012faf69539a13c5bd4,0,cb4c00b93772d665d6e8f8158f09779f,1539199590
@@ -176,7 +183,7 @@ invoice@ = 15,14,1,fc430283546cf012faf69539a13c5bd4,0,cb4c00b93772d665d6e8f8158f
 <pre><code>15: character sets (ignored)  
 14: password length (ignored)  
 1: password sequence number (ignored)  
-fc430283546cf012faf69539a13c5bd4: AES-256 encrypted notes  
+fc430283546cf012faf69539a13c5bd4: AES-256 encrypted note  
 0: Password category number
 cb4c00b93772d665d6e8f8158f09779f: AES-256 encrypted password  
 1539199590: timestamp to keep track of password age
@@ -188,7 +195,7 @@ cb4c00b93772d665d6e8f8158f09779f: AES-256 encrypted password
 <p>On the other hand, simply mangling dictionary words to create a password might <em>look</em> secure, but it probably isn't.  Here's a <a href="https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength">web comic with commentary</a> that illustrates that point well. The conclusion drawn by the comic is <em>"Through 20 years of effort, we've successfully trained everyone to use passwords that are hard for humans to remember, but easy for computers to guess."</em></p>
 <h4 id="diceware-passwords"><strong>Diceware Passwords</strong><a class="headerlink" href="#diceware-passwords" title="Permanent link"></a></h4>
 <p>This is where "Diceware" passwords come to the rescue.  It turns out that humans ARE capable of easily memorizing "passphrases" consisting of, say, 7 random <em>words</em>, taken from a "Diceware" dictionary of 7,776 words.  This results in a passphrase which is similar in entropy (difficulty to guess) to the 14 character password.  Here is an example 7-word Diceware passphrase: "catalyst sedative certify unused gap dodge alienate".</p>
-<p>If you're not completely convinced that a random series of words (Diceware passphrase) is far better than a random or contrived series of characters, please read this <a href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/">excellent article about Diceware</a>.  When you are ready to obtain a Diceware passphrase, take a look at this <a href="https://www.rempe.us/diceware/#eff">excellent online Diceware passphrase generator</a>.</p>
+<p>If you're not completely convinced that a random series of words (Diceware passphrase) is far better than a random or contrived series of characters, please read this <a href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/">excellent article about Diceware</a>.  When you are ready to obtain a Diceware passphrase, take a look at this <a href="https://www.rempe.us/diceware/#eff">excellent online Diceware passphrase generator</a>. In addition to generating passphrases using the browser's built-in random number generator, you can use real dice with it.</p>
 <p>As a final note: if a brute force attacker were to obtain a password hash created from a 7-word Diceware passphrase, and if he could muster 1,000,000,000,000 guesses per second (only possible by a nation state player such as the NSA), the average time to guess a 7-word passphrase would be over 27 million years!</p></div>
         </div>
 
@@ -273,5 +280,5 @@ cb4c00b93772d665d6e8f8158f09779f: AES-256 encrypted password
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-04-12 04:23:27
+Build Date UTC : 2019-04-17 02:23:04
 -->
