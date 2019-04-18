@@ -1,0 +1,37 @@
+site_name: Strongman
+site_url: https://strongman.tech
+site_description: Project documentation
+site_author: Lloyd Standish
+site_dir: passwords
+repo_url: https://github.com/lstandish/strongman/
+edit_uri: ""
+
+theme:
+    name: mkdocs
+    highlightjs: false
+
+nav:
+    - Home: index.md
+    - User Guide: user-guide.md
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
+        - Development: about/development.md
+        - Credits: about/credits.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+
+# copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+# google_analytics: ['UA-27795084-5', 'mkdocs.org']
+copyright: Copyright &copy; 2019 Lloyd Standish
+
+plugins:
+    - search
