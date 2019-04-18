@@ -122,6 +122,9 @@ This is where "Diceware" passwords come to the rescue.  It turns out that humans
 If you're not completely convinced that a random series of words (Diceware passphrase) is far better than a random or contrived series of characters, please read this [excellent article about Diceware](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/).  When you are ready to obtain a Diceware passphrase, take a look at this [excellent online Diceware passphrase generator](https://www.rempe.us/diceware/#eff). In addition to generating passphrases using the browser's built-in random number generator, you can use real dice with it.
 
 As a final note: if a brute force attacker were to obtain a password hash created from a 7-word Diceware passphrase, and if he could muster 1,000,000,000,000 guesses per second (only possible by a nation state player such as the NSA), the average time to guess a 7-word passphrase would be over 27 million years!
+
+Test Line #2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjUzMTkzMywtNjQ0MDkyMDM4XX0=
+eyJoaXN0b3J5IjpbLTEwNjU5NDczNjYsMjExMjUzMTkzMywtNj
+Q0MDkyMDM4XX0=
 -->
