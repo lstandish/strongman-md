@@ -2,7 +2,7 @@ site_name: Strongman
 site_url: https://strongman.tech
 site_description: Project documentation
 site_author: Lloyd Standish
-site_dir: passwords
+site_dir: site
 repo_url: https://github.com/lstandish/strongman/
 edit_uri: ""
 
