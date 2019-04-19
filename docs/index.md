@@ -123,8 +123,10 @@ If you're not completely convinced that a random series of words (Diceware passp
 
 As a final note: if a brute force attacker were to obtain a password hash created from a 7-word Diceware passphrase, and if he could muster 1,000,000,000,000 guesses per second (only possible by a nation state player such as the NSA), the average time to guess a 7-word passphrase would be over 27 million years!
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDkzMjA0MiwyMDc4MTQxMz
-g1LC0xMDY1OTQ3MzY2LDIxMTI1MzE5MzMsLTY0NDA5MjAzOF19
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUxNjE1MTg0Nyw2NTcyNDIzMTUsOTMyMD
+QyLDIwNzgxNDEzODUsLTEwNjU5NDczNjYsMjExMjUzMTkzMywt
+NjQ0MDkyMDM4XX0=
 -->
