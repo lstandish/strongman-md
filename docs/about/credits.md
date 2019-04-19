@@ -46,3 +46,6 @@ Also, thanks to [Jquery](http://jquery.com/) and [w3.css](https://www.w3schools.
 
 [jshashes]: https://github.com/h2non/jshashes
 [lesspass]: https://lesspass.com
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0ODA5NTg2NDldfQ==
+-->
