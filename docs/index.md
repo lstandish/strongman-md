@@ -14,7 +14,7 @@ Strongman is a **free open-source online password manager** written in javascrip
 
 The emphasis is on **speed**, [**security**](#strongman-security), and **simplicity**. [Open Strongman Password Manager]
 
-## Features
+# Features
 
 - Strongman is completely free and open source. 
 - [Diceware](#diceware-passwords) master passphrases are strongly recommended, and in fact **must be used** unless overridden by a setting.
@@ -124,7 +124,7 @@ If you're not completely convinced that a random series of words (Diceware passp
 As a final note: if a brute force attacker were to obtain a password hash created from a 7-word Diceware passphrase, and if he could muster 1,000,000,000,000 guesses per second (only possible by a nation state player such as the NSA), the average time to guess a 7-word passphrase would be over 27 million years!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDQwNjMyMjc1NSw2NTcyND
-IzMTUsOTMyMDQyLDIwNzgxNDEzODUsLTEwNjU5NDczNjYsMjEx
-MjUzMTkzMywtNjQ0MDkyMDM4XX0=
+eyJoaXN0b3J5IjpbLTg3MjA2ODkwNCw2NTcyNDIzMTUsNDA2Mz
+IyNzU1LDY1NzI0MjMxNSw5MzIwNDIsMjA3ODE0MTM4NSwtMTA2
+NTk0NzM2NiwyMTEyNTMxOTMzLC02NDQwOTIwMzhdfQ==
 -->
