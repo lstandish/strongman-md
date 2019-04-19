@@ -44,14 +44,7 @@ Plus there are 2 additional unnamed categories available.  **You can change the 
 To be published soon!
 [Open Strongman Password Manager]: https://strongman.tech/app/index.php
 
-# Heading
- - mi punto
- - otro punto
- - tercer punto
-
-> Esto es me texto descatado
-> otro renglon
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzAwMDkyLDk5MTA0MDc5NV19
+eyJoaXN0b3J5IjpbMTQ0NTI5NTI3LDk5MTA0MDc5NV19
 -->
