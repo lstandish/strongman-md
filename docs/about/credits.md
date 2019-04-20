@@ -48,7 +48,8 @@ Also, thanks to [Jquery](http://jquery.com/) and [w3.css](https://www.w3schools.
 [lesspass]: https://lesspass.com
 
 ### Beta Testers
-Thanks to my friend Chris for all the great suggestions.
+Thanks to my friend Chris for all the great suggestions. (Feedback from users is always welcome. Please contact me at lloyd at crnatural.net (Spam prevention: replace "at" with "@" and remove spaces.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDU4MTAwNCwtMTQ4MDk1ODY0OV19
+eyJoaXN0b3J5IjpbLTE2ODA4MjY0MjgsLTM4MDU4MTAwNCwtMT
+Q4MDk1ODY0OV19
 -->
