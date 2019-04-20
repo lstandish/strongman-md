@@ -28,7 +28,7 @@ New in version 1.10: You can now organize your password into categories.  **The 
 - Social Media
 - Admin Panel
 - Forums
-- Gov
+- Government
 
 Plus there are 2 additional unnamed categories available.  **You can change the names of any of these categories as you wish.** Look in "Settings and Tools" at the bottom of the Strongman window.
 
@@ -42,7 +42,7 @@ Plus there are 2 additional unnamed categories available.  **You can change the 
 ### Short Demo Video
 
 To be published soon!
-[Open Strongman Password Manager]: https://strongman.tech/app/index.php
+[Open Strongman Password Manager]: /app/index.php
 
 
 <!--stackedit_data:
