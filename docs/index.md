@@ -25,7 +25,7 @@ The emphasis is on **speed**, [**security**](#strongman-security), and **simplic
 - Strongman does not require signup or login. Since there is no session, it is *stateless*, adding greatly to its security.  You need only enter your master password, which never leaves your browser page (examine the source code if you want to confirm that).
 - Strongman is extremely simple and fast to use.  It aims to put your password into the computer clipboard **with as few clicks as possible.** It doesn't fill any web forms for you, to avoid security risks.
 - The app is mobile-adaptive for use on cell phones and the like. Later, with help from the Github community, I may add a native Android app.
-- The truly paranoid who cannot audit the source code can **turn off online mode** after the Strongman app is loaded.  In offline mode, stored password profiles and encrypted passwords are unavailable, but computed passwords will work fine.
+- The truly paranoid who cannot audit the source code can **turn off online mode** (or simply go offline) after the Strongman app is loaded.  In offline mode, stored password profiles and encrypted passwords are unavailable, but computed passwords will work fine.
 
 ## Why I Created Strongman
 
