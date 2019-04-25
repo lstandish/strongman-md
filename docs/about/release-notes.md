@@ -8,13 +8,24 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
-#### Version 1.19 April 24, 2019
+#### Version 1.19 April 25, 2019
+- Emergency fix for broken offline mode.
+- fixed account status message for newly created accounts
 
-- fixed offline mode
-- added submit button for master password entry
-- added light green background to domain autocomplete to show that a password profile has been loaded
-- removed version 1.18 as a release
- 
+#### Version 1.17 April 22, 2019
+- Fixed offline mode (was non-working)
+- Preventing hammering on ajax-json-list when no account loaded
+- fixed autocomplete not opening on first click after master password load
+- added submit button for master password. This allows immediate warning about new or weak master password.
+- rewrote warning messages about weak master password
+- fixed master password check to always check for Diceware first even when Diceware requirement is overridden
+- reduced weak master password warning messages when using offline
+- added light green background to autocomplete (domain) field to indicate that password profiles are loaded from server and ready to use (either via showing the entire list, or via incremental search
+- Changed search/show all switch from "no search" to "search" in UI, to prevent wrapping in cell phone view.  Changed cookie name from "matchoff" to "matchon."
+- Compacted UI items above domain input field, including setting a fixed width for filter dropdown selection menu
+- Incorporated javascript promise/wait into hashpass function to allow proper handling of offline master password hashing.
+- remove more commented code
+
 #### Version 1.10
 Added password category support
 Code cleanup
@@ -22,3 +33,4 @@ Files cleanup
 Upgrade moment.js to latest upstream version
 
 #### Version 1.0 (*initial release*)
+
