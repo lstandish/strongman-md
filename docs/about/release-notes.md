@@ -8,6 +8,9 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.20 April 26, 2019
+- Added hook for new account actions
+
 #### Version 1.19 April 25, 2019
 - Emergency fix for broken offline mode.
 - fixed account status message for newly created accounts
