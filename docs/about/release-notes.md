@@ -27,7 +27,7 @@ The current members of the Strongman team:
 - Changed search/show all switch from "no search" to "search" in UI, to prevent wrapping in cell phone view.  Changed cookie name from "matchoff" to "matchon."
 - Compacted UI items above domain input field, including setting a fixed width for filter dropdown selection menu
 - Incorporated javascript promise/wait into hashpass function to allow proper handling of offline master password hashing.
-- remove more commented code
+- remove more commented code(*initial release*)
 
 #### Version 1.10
 Added password category support
@@ -37,3 +37,6 @@ Upgrade moment.js to latest upstream version
 
 #### Version 1.0 (*initial release*)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkwMjUzOTI3N119
+-->
