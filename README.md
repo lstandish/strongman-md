@@ -1,7 +1,7 @@
 # strongman-mkdocs
 Mkdocs source files for site
 
-This repo contains the markdown files used by mkdocs to build the [Strongman](https://strongman.tech) site.
+This repo contains the markdown files used by mkdocs to build the [Strongman](https://strongman.standish.site) website.
 
 The Strongman site is not hosted on Github using Github Pages because it is built with the [mkdocs](https://www.mkdocs.org) static site generator rather than Jekyl.  Github Pages does not support any static site generator (for markdown files) other than Jekyl.
 

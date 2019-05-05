@@ -42,11 +42,11 @@ So I set out to build my ideal password manager.  Essentially I adopted the extr
 
 ## Installation
 
-Installation is not necessary for most users, since the Strongman project hosts the web app for free public access: [https://strongman.tech/app].
+Installation is not necessary for most users, since the Strongman project hosts the web app for free public access: [https://strongman.standish.site/app].
 
 If you wish to run the web app on your own server, or to help with development, download the project from the [github repository].  Upload the "app" directory to any location accessible to your php7.1+-enabled web server. Make sure the "data-source" directory is writable by your web server user.  You should also be sure that the site can't be accessed by both the base domain and the www subdomain, so that cookies can work properly.  That's it.  There's no database. Account information is stored in files, one file per master password.
 
-[https://strongman.tech/app]: /app
+[https://strongman.standish.site/app]: /app
 [github repository]: https://github.com/lstandish/strongman
 [lesspass]: https://lesspass.com
 [security analysis]: https://www.usenix.org/node/184484
