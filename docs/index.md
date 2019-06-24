@@ -123,6 +123,17 @@ If you're not completely convinced that a random series of words (Diceware passp
 
 As a final note: if a brute force attacker were to obtain a password hash created from a 7-word Diceware passphrase, and if he could muster 1,000,000,000,000 guesses per second (only possible by a nation state player such as the NSA), the average time to guess a 7-word passphrase would be over 27 million years!
 
+####__FAQ__####
+**Q**: Why are some of my settings lost when I close and then reopen the browser?  
+**A**: The following Strongman settings are all stored in browser cookies:
+
+1. Online status
+2. Domain Incremental Search
+3. Autoclear seconds
+4. Permit non-Diceware Master Password
+5. Hide Passwords on Focus
+
+These cookies should not expire for 1000 days, but if you have your browser set to erase cookies upon closing the browser, these (and all other persistent cookies) will be erased, and all the the above settings will be reset to the defaults.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDY1NzI0MjMxNSw0MDYzMj
 I3NTUsNjU3MjQyMzE1LDkzMjA0MiwyMDc4MTQxMzg1LC0xMDY1
