@@ -8,6 +8,10 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.25 June 26, 2019
+- Master password timeout option
+- Improved settings user interface
+
 #### Version 1.20 April 26, 2019
 - Added hook for new account actions
 
