@@ -32,13 +32,6 @@ New in version 1.10: You can now organize your password into categories.  **The 
 
 Plus there are 2 additional unnamed categories available.  **You can change the names of any of these categories as you wish.** Look in "Settings and Tools" at the bottom of the Strongman window.
 
-!!! Note
-    **To Change the Master Password**
-    
-    1. Enter the new master password and compute or save a site password. That creates a new Strongman account with the new master password.  *Customized category names are not imported.*  Therefore, if you have modified the default category names, it is recommended that before importing you set up the categories in the new account to be the same as those in the old (origin) account.
-    2. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
-    3. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
-
 ### Password Import / Export
 1. **Import from CSV file**  
 Passwords can be imported from virtually any CSV file. The header row is a requirement. The following fields are imported from each row:
@@ -49,10 +42,18 @@ Passwords can be imported from virtually any CSV file. The header row is a requi
 If your CVS header names are different from these, you can map them to different names.  If your CSV file has more fields than these, they will be ignored. 
 
 2. **Import from another Strongman account**  
-To import passwords from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. The category names of the destination account will be applied to the imported entries.  Matching domain-username entries will be overwritten.
+To import passwords from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. The category names of the destination account will be applied to the imported entries.  Matching domain-username entries will be overwritten. This feature is often used to *change the master password* (see below).
 
 3. **Export to CSV file**  
 Passwords can be exported to a CSV file. Keepass v1.x format is used.
+
+!!! Note
+    **To Change the Master Password**
+    
+    1. Enter the new master password and compute or save a site password. That creates a new Strongman account with the new master password.  *Customized category names are not imported.*  Therefore, if you have modified the default category names, it is recommended that before importing you set up the categories in the new account to be the same as those in the old (origin) account.
+    2. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
+    3. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
+
 ### Short Demo Video
 
 To be published soon!
