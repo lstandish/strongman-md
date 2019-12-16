@@ -38,6 +38,11 @@ See [https://silentmatt.com/biginteger](https://silentmatt.com/biginteger/)
 
 Parse, validate, manipulate, and display dates and times in JavaScript. [https://momentjs.com/](https://momentjs.com/)
 
+### Papa Parse
+
+Used to parse CSV files for password import from Keepass CSV format.
+See [https://www.papaparse.com/](https://www.papaparse.com/)
+
 ### Autocomplete for Jquery
 
 Used for Strongman's dropdown list with ajax lookup, which is at the core of the user inferface. [https://github.com/jbdemonte/autocomplete]
