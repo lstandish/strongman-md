@@ -8,6 +8,16 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.31 December 15, 2019
+- (bugfix) Copy of password to clipboard now works for hidden password field (eye-closed icon) 
+
+#### Versions 1.26-1.30 December 3, 2019
+- Added password import/export from/to Keepass CSV format
+- Made headers configurable for CSV import
+- Allowed detection and skipping of malformed row in CSV file import
+- Increased length limits for domain and username
+- Allowed import and store settings actions for uninitialized account
+
 #### Version 1.25 June 26, 2019
 - Master password timeout option
 - Improved settings user interface

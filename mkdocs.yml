@@ -13,12 +13,13 @@ theme:
 nav:
     - Home: index.md
     - User Guide: user-guide.md
-    - About:
-        - Release Notes: about/release-notes.md
-        - Contributing: about/contributing.md
-        - License: about/license.md
-        - Development: about/development.md
-        - Credits: about/credits.md
+    - More:
+        - Demo: more/demo.md
+        - Release Notes: more/release-notes.md
+        - Contributing: more/contributing.md
+        - License: more/license.md
+        - Development: more/development.md
+        - Credits: more/credits.md
 
 extra_css:
     - css/extra.css
