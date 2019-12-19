@@ -8,6 +8,9 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.32 (unreleased, but previewable on demo site)
+- Link to documentation website now opens in new window
+
 #### Version 1.31 December 15, 2019
 - (bugfix) Copy of password to clipboard now works for hidden password field (eye-closed icon) 
 
