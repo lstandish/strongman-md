@@ -8,9 +8,10 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
-#### Version 1.32 (unreleased, but previewable on [demo site](/app))
+#### Version 1.32 December 21, 2019
 - Link to documentation website now opens in new window
-- Developing symbols character class help
+- Improved symbols character class help
+- (bugfix) Increased minimum computed password length to 5, avoiding divide by zero error
 
 #### Version 1.31 December 15, 2019
 - (bugfix) Copy of password to clipboard now works for hidden password field (eye-closed icon) 
