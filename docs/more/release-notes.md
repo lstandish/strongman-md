@@ -8,7 +8,8 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
-#### Version 1.33 December 21, 2019
+#### Version 1.34 December 25, 2019
+- (bugfix) Fixed password copy to clipboard and clipboard clear on IOS.
 
 #### Version 1.32 December 21, 2019
 - (bugfix) Allow clipboard copy to work for older browsers.
