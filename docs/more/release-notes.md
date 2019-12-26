@@ -8,6 +8,9 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.35 December 26, 2019
+- Removed auto-clear of clipboard. (Clipboard should not be cleared without user's conscious intent.)
+
 #### Version 1.34 December 25, 2019
 - (bugfix) Fixed password copy to clipboard and clipboard clear on IOS.
 

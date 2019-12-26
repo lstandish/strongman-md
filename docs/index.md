@@ -109,6 +109,19 @@ fc430283546cf012faf69539a13c5bd4: AES-256 encrypted note
 cb4c00b93772d665d6e8f8158f09779f: AES-256 encrypted password  
 1539199590: timestamp to keep track of password age
 ```
+#### __The Clipboard__
+
+The clipboard has been called an insecure way to transport passwords, since others users on your computer as well as all the software on your computer has access to the clipboard.
+
+However, I think it's generally true that if you have to worry about security on your computer, you probably can't safely use passwords in a browser, period. The browser, for example, is going to get your password.  Computer memory may contain your password. If the computer is compromised, so is the password.
+
+Assuming that your computer is **not** compromised, it is not, in my opinion, a good idea to leave passwords copied to the clipboard when you are not using it. Furthermore, if you are using a clipboard manager that stores a history of clipboard entries, it should be disabled before copying passwords.
+
+If no clipboard manager is active, the clipboard will have only one entry: the current entry. Then, when you are done copy-pasting passwords, all you have to do is clear the clipboard, and passwords are not left behind. Strongman now provides a convenient "clear clipboard" icon (above the site password field) to do this. (Tip: hover the mouse over icons to show their functions.)
+
+Of course, in addition to clearing the clipboard when you leave your computer, you will probably want to clear the **master password and any site password** from the Strongman app. This is easily done by clicking the lock icon above the master password field. 
+
+This can also be done automatically after a set  period of inactivity. In the Strongman app, look under Settings and Tools/General Settings.
 
 ## The Master Password
 
@@ -138,6 +151,10 @@ As a final note: if a brute force attacker were to obtain a password hash create
 5. Hide Passwords on Focus
 
 These cookies should not expire for 1000 days, but if you have your browser set to erase cookies upon closing the browser, these (and all other persistent cookies) will be erased, and all the the above settings will be reset to the defaults.
+
+**Q**: Isn't it terribly insecure to copy a password to the clipboard? Clipboard data is available to any user or program on the computer!  
+**A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. Read more under Security.
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDY1NzI0MjMxNSw0MDYzMj
 I3NTUsNjU3MjQyMzE1LDkzMjA0MiwyMDc4MTQxMzg1LC0xMDY1
