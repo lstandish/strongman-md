@@ -9,7 +9,7 @@ Strongman is a **free open-source online password manager** written in javascrip
 
 **Strongman has two basic modes of functionality:**
 
-1. **Compute Mode**: This mode uses the master password combined with the username and domain to create "computed" passwords (similar to [lesspass]). In this mode, only a "password profile" is stored on the server. The site password itself is not stored.
+1. **Compute Mode**: This mode uses the master password combined with the username and domain to create "computed" passwords (similar to [lesspass]). In this mode, only a "password profile" is stored on the server, not the password itself. This mode is used when the 'Compute' button is used.
 2. **Encrypt Mode**: This mode is used when you click the 'Save' button. It allows saving any user-specified password, encrypted (AES-256) using the master password and then sent to the server for storage. This same encryption is also used for "secure notes."
 
 The emphasis is on **speed**, [**security**](#strongman-security), and **simplicity**. [Open Strongman Password Manager]
