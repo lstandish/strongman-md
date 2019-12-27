@@ -9,8 +9,8 @@ Strongman is a **free open-source online password manager** written in javascrip
 
 **Strongman has two basic modes of functionality:**
 
-1. It uses a master password combined with the username and domain to create "computed" passwords (similar to [lesspass]). In this mode, only a "password profile" is stored on the server. The site password itself is not stored.
-2. It can use the master password to encrypt (AES-256) "custom" passwords and "secure notes," which are then stored on a web server.
+1. **Compute Mode**: This mode uses the master password combined with the username and domain to create "computed" passwords (similar to [lesspass]). In this mode, only a "password profile" is stored on the server. The site password itself is not stored.
+2. **Encrypt Mode**: This mode is used when you click the 'Save' button. It allows saving any user-specified password, encrypted (AES-256) using the master password and then sent to the server for storage. This same encryption is also used for "secure notes."
 
 The emphasis is on **speed**, [**security**](#strongman-security), and **simplicity**. [Open Strongman Password Manager]
 
@@ -24,7 +24,7 @@ The emphasis is on **speed**, [**security**](#strongman-security), and **simplic
 - Like all good security software, the source code is available for inspection! ([github repository])
 - Strongman does not require signup or login. Since there is no session, it is *stateless*, adding greatly to its security.  You need only enter your master password, which never leaves your browser page (examine the source code if you want to confirm that).
 - Strongman is extremely simple and fast to use.  It aims to put your password into the computer clipboard **with as few clicks as possible.** It doesn't fill any web forms for you, to avoid security risks.
-- The app is mobile-adaptive for use on cell phones and the like. Later, with help from the Github community, I may add a native Android app.
+- The app is mobile-adaptive for use on cell phones and the like.
 - The truly paranoid who cannot audit the source code can **turn off online mode** (or simply go offline) after the Strongman app is loaded.  In offline mode, stored password profiles and encrypted passwords are unavailable, but computed passwords will work fine.
 - Import passwords from CSV (configurable)
 - Export passwords to CSV (Keepass 1.x format only)
