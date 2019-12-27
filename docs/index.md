@@ -113,15 +113,15 @@ cb4c00b93772d665d6e8f8158f09779f: AES-256 encrypted password
 
 The clipboard has been called an insecure way to transport passwords, since others users on your computer as well as all the software on your computer has access to the clipboard.
 
-However, I think it's generally true that if you have to worry about security on your computer, you probably can't safely use passwords in a browser, period. The browser, for example, is going to get your password.  Computer memory may contain your password. If the computer is compromised, so is the password.
+However, I think it's generally true that if you have to worry about security on your computer, you probably can't safely use passwords in a browser, period. The browser, for example, is going to get your password.  Computer memory may contain your password. If the computer is compromised, so is the password. (Tip: if you want to avoid almost all risk from viruses and malware, use Linux.)
 
-Assuming that your computer is **not** compromised, it is not, in my opinion, a good idea to leave passwords copied to the clipboard when you are not using it. Furthermore, if you are using a clipboard manager that stores a history of clipboard entries, it should be disabled before copying passwords.
+Let's assume that your computer is **not** compromised. Still, it is probably not a good idea to leave passwords copied to the clipboard when you are not using it.
 
-If no clipboard manager is active, the clipboard will have only one entry: the current entry. Then, when you are done copy-pasting passwords, all you have to do is clear the clipboard, and passwords are not left behind. Strongman now provides a convenient "clear clipboard" icon (above the site password field) to do this. (Tip: hover the mouse over icons to show their functions.)
+To make it easy to clear the clipboard, any clipboard manager you may be using should be disabled before using Strongman.  This is because a clipboard manager stores past clipboard entries.  If no clipboard manager is active, the clipboard will have only one entry: the current entry. Then, when you are done copy-pasting passwords, all you have to do is clear the clipboard, and passwords are not left behind. Strongman now provides a convenient "clear clipboard" icon (above the site password field) to do this. (Tip: hover the mouse over icons to show their functions.)
 
-Of course, in addition to clearing the clipboard when you leave your computer, you will probably want to clear the **master password and any site password** from the Strongman app. This is easily done by clicking the lock icon above the master password field. 
+Of course, in addition to clearing the clipboard when you leave your computer, you will probably want to clear the **master password and any site password** from the Strongman app. This is easily done by clicking the lock icon above the master password field. (Note that this password clearing is automatically done whenever you either close or navigate away from the Strongman app page.)
 
-This can also be done automatically after a set  period of inactivity. In the Strongman app, look under Settings and Tools/General Settings.
+Password clearing can also be done automatically after a set  period of inactivity. In the Strongman app, look under Settings and Tools/General Settings.
 
 ## The Master Password
 
