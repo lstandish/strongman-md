@@ -8,6 +8,10 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.38 January 7, 2020
+- Relaxed master password requirement. When "permit not Diceware" setting is made, Strongman will
+warn of weak passwords but will permit any password.
+
 #### Version 1.35 December 26, 2019
 - Removed auto-clear of clipboard. (Clipboard should not be cleared without user's conscious intent.)
 
