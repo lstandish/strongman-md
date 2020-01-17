@@ -19,7 +19,7 @@
 Any password entry, either "computed" or "custom", can have AES-256- encrypted secure notes.  Click the book icon just above the password entry field. A text area for the notes will pop into view. When done, click the "Save" link to encrypt and save your notes to the server.
 
 ### Password Categories
-New in version 1.10: You can now organize your password into categories.  **The default categories are:**
+New in version 1.10 and up: You can now organize your password into categories.  **The default categories are:**
 
 - Uncategorized
 - Banking
@@ -50,9 +50,10 @@ Passwords can be exported to a CSV file. Keepass v1.x format is used.
 !!! Note
     **To Change the Master Password**
     
-    1. Enter the new master password and compute or save a site password. That creates a new Strongman account with the new master password.  *Customized category names are not imported.*  Therefore, if you have modified the default category names, it is recommended that before importing you set up the categories in the new account to be the same as those in the old (origin) account.
-    2. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
-    3. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
+    1. Enter the new master password and click 'submit'..
+    2. Since customized category names are not imported, if you modified the default category names in the old (origin) account, it is recommended that before importing you change the categories in the new account to be the same.
+    3. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
+    4. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
 
 ### Short Demo Video
 
