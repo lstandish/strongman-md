@@ -8,6 +8,10 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.41 July 5, 2020
+- Fix bug: username with spaces now works.
+- Changed "Compute" button label to "Compute/Save", to clarify that the "password profile is saved to the server when online.
+
 #### Version 1.38 January 7, 2020
 - Relaxed master password requirement. When "permit not Diceware" setting is made, Strongman will
 warn of weak passwords but will permit any password.
