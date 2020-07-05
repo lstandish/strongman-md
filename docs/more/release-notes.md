@@ -8,6 +8,9 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.42 July 5, 2020
+- Rolled back from "Compute/Save" to "Save" button.
+
 #### Version 1.41 July 5, 2020
 - Fix bug: username with spaces now works.
 - Changed "Compute" button label to "Compute/Save", to clarify that the "password profile is saved to the server when online.
