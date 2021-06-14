@@ -153,7 +153,7 @@ As a final note: if a brute force attacker were to obtain a password hash create
 These cookies should not expire for 1000 days, but if you have your browser set to erase cookies upon closing the browser, these (and all other persistent cookies) will be erased, and all the the above settings will be reset to the defaults.
 
 **Q**: Isn't it terribly insecure to copy a password to the clipboard? Clipboard data is available to any user or program on the computer!  
-**A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. Read more under Security.
+**A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. [Read more](#the-clipboard).
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDY1NzI0MjMxNSw0MDYzMj
