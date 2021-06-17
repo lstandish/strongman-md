@@ -11,6 +11,7 @@ The current members of the Strongman team:
 #### Version 1.43 June 13, 2021
 - Secure notes field is no longer automatically cleared when username is changed. This facillitates copying changing the domain or username of an entry.
 - Updated dependencies: jquery, jshashes, aes-js, javascript-biginteger, moment, papaparse.
+- Converted dependencies to git submodules for easier maintenance
 - Fixed bug: double quote characters in site passwords, when exportetd to CSV files, would cause import from CSV files to break.  Solution: double quotes are no longer generated in computed passwords. Instead of a double quote, the '~' character is generated. Also, double quotes are no longer allowed in custom passwords. WARNING: This fix will cause any computed password which previously contained a double quote to appear with a '~' character instead.
 
 #### Version 1.42 July 5, 2020
