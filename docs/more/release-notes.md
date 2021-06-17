@@ -8,7 +8,7 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
-#### Version 1.43 June 13, 2021
+#### Version 1.43 June 17, 2021
 - Secure notes field is no longer automatically cleared when username is changed. This facillitates copying changing the domain or username of an entry.
 - Updated dependencies: jquery, jshashes, aes-js, javascript-biginteger, moment, papaparse.
 - Converted dependencies to git submodules for easier maintenance
