@@ -1,5 +1,5 @@
 site_name: Strongman
-site_url: https://strongman.tech
+site_url: https://strongman.standish.site
 site_description: Project documentation
 site_author: Lloyd Standish
 site_dir: site
@@ -32,7 +32,7 @@ markdown_extensions:
 
 # copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
 # google_analytics: ['UA-27795084-5', 'mkdocs.org']
-copyright: Copyright &copy; 2019 Lloyd Standish
+copyright: Copyright &copy; 2021 Lloyd Standish
 
 plugins:
     - search
