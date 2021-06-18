@@ -13,7 +13,7 @@
 #### To Create a New Password Entry
 1. Just enter the domain and username. Change the password computation options for this username if necessary (use the '☰' icon). **Select the appropriate category from the dropdown list.**
 2. Click the "Compute" button. The password is calculated and (optionally) copied to clipboard. The next time you need this password, you can select it from the dropdown list.  This is a *computed* password. If you need to change it later, you can increment the password number in the '☰' options menu.
-3. If you want to want to *use your own password* instead of a computed one, just edit edit the password field and click the "Save" button. This *"custom"* password will be AES256-encrypted and stored on the server.
+3. If you want to want to *use your own password* instead of a computed one, just edit the password field and click the "Save" button. This *"custom"* password will be AES256-encrypted and stored on the server.
 
 ### Secure Notes
 Any password entry, either "computed" or "custom", can have AES-256- encrypted secure notes.  Click the book icon just above the password entry field. A text area for the notes will pop into view. When done, click the "Save" link to encrypt and save your notes to the server.
@@ -62,5 +62,6 @@ To be published soon!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTI5NTI3LDk5MTA0MDc5NV19
+eyJoaXN0b3J5IjpbLTY5OTQ2NDQ2NiwxNDQ1Mjk1MjcsOTkxMD
+QwNzk1XX0=
 -->
