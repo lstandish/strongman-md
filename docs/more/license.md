@@ -4,8 +4,7 @@ The legal stuff.
 
 ---
 
-## Copyright
-2019 Lloyd Standish
+#### Copyright 2021 Lloyd Standish
 
 
 ## The Strongman Program

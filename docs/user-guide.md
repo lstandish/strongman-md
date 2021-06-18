@@ -19,7 +19,7 @@
 Any password entry, either "computed" or "custom", can have AES-256- encrypted secure notes.  Click the book icon just above the password entry field. A text area for the notes will pop into view. When done, click the "Save" link to encrypt and save your notes to the server.
 
 ### Password Categories
-New in version 1.10 and up: You can now organize your password into categories.  **The default categories are:**
+You can organize your password into categories.  **The default categories are:**
 
 - Uncategorized
 - Banking
@@ -39,13 +39,13 @@ Passwords can be imported from virtually any CSV file. The header row is a requi
     - Login Name (required)
     - Password (required)
     - Comments (optional)
-If your CVS header names are different from these, you can map them to different names.  If your CSV file has more fields than these, they will be ignored. 
+If your CVS header names are different from these, you can map them to different names.  If your CSV file has more fields than these, they will be ignored. Password categories **are not** imported from CSV files.
 
 2. **Import from another Strongman account**  
-To import passwords directly from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. Categories are not imported. Matching domain-username entries will be overwritten. This feature is often used to *change the master password* (see below).
+To import passwords directly from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. Categories **are imported,** but not custom category names. Matching domain-username entries will be overwritten. This feature is most often used to *change the master password* (see below).
 
 3. **Export to CSV file**  
-Passwords can be exported to a CSV file. Keepass v1.x format is used.
+Passwords can be exported to a CSV file. Keepass v1.x format is used. Password category names are not exported.
 
 !!! Note
     **To Change the Master Password**
@@ -56,11 +56,5 @@ Passwords can be exported to a CSV file. Keepass v1.x format is used.
 
 ### Short Demo Video
 
-May be published someday.
+(May be published someday!)
 [Open Strongman Password Manager]: /app/index.php
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTIwMjcxMiwxNDQ1Mjk1MjcsOTkxMD
-QwNzk1XX0=
--->

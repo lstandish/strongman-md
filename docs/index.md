@@ -117,7 +117,7 @@ However, I think it's generally true that if you have to worry about security on
 
 Let's assume that your computer is **not** compromised. Still, it is probably not a good idea to leave passwords copied to the clipboard when you are not using it.
 
-To make it easy to clear the clipboard, any clipboard manager you may be using should be disabled before using Strongman.  This is because a clipboard manager stores past clipboard entries.  If no clipboard manager is active, the clipboard will have only one entry: the current entry. Then, when you are done copy-pasting passwords, all you have to do is clear the clipboard, and passwords are not left behind. Strongman now provides a convenient "clear clipboard" icon (above the site password field) to do this. (Tip: hover the mouse over icons to show their functions.)
+To make it easy to clear the clipboard, any clipboard manager you may be using can be disabled before using Strongman.  This is because a clipboard manager stores past clipboard entries.  If no clipboard manager is active, the clipboard will have only one entry: the current entry. Then, when you are done copy-pasting passwords, all you have to do is clear the clipboard, and passwords are not left behind. Strongman now provides a convenient "clear clipboard" icon (above the site password field) to do this. (Tip: hover the mouse over icons to show their functions.)
 
 Of course, in addition to clearing the clipboard when you leave your computer, you will probably want to clear the **master password and any site password** from the Strongman app. This is easily done by clicking the lock icon above the master password field. (Note that this password clearing is automatically done whenever you either close or navigate away from the Strongman app page.)
 
@@ -154,9 +154,3 @@ These cookies should not expire for 1000 days, but if you have your browser set 
 
 **Q**: Isn't it terribly insecure to copy a password to the clipboard? Clipboard data is available to any user or program on the computer!  
 **A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. [Read more](#the-clipboard).
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MjQyMzE1LDY1NzI0MjMxNSw0MDYzMj
-I3NTUsNjU3MjQyMzE1LDkzMjA0MiwyMDc4MTQxMzg1LC0xMDY1
-OTQ3MzY2LDIxMTI1MzE5MzMsLTY0NDA5MjAzOF19
--->
