@@ -42,7 +42,7 @@ Passwords can be imported from virtually any CSV file. The header row is a requi
 If your CVS header names are different from these, you can map them to different names.  If your CSV file has more fields than these, they will be ignored. 
 
 2. **Import from another Strongman account**  
-To import passwords directly from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. The category names of the destination account will be applied to the imported entries.  Matching domain-username entries will be overwritten. This feature is often used to *change the master password* (see below).
+To import passwords directly from another Strongman account into the currently open account, you need to be able to provide the imported account's master password. Categories are not imported. Matching domain-username entries will be overwritten. This feature is often used to *change the master password* (see below).
 
 3. **Export to CSV file**  
 Passwords can be exported to a CSV file. Keepass v1.x format is used.
@@ -62,6 +62,6 @@ To be published soon!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODU4ODkwLDE0NDUyOTUyNyw5OTEwND
-A3OTVdfQ==
+eyJoaXN0b3J5IjpbLTQ0NzM0ODgyNywxNDQ1Mjk1MjcsOTkxMD
+QwNzk1XX0=
 -->
