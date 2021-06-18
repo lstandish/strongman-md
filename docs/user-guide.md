@@ -51,17 +51,16 @@ Passwords can be exported to a CSV file. Keepass v1.x format is used.
     **To Change the Master Password**
     
     1. Enter the new master password and click 'submit'..
-    2. Since customized category names are not imported, if you modified the default category names in the old (origin) account, it is recommended that before importing you change the categories in the new account to be the same.
-    3. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
-    4. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
+    2. Use "Import Passwords from Another Strongman Account" (under "Settings and Tools/Account Actions" near the bottom of the Strongman app), specifying the master password of the old account.
+    3. After the passwords and notes are imported, you can delete the old Strongman account via the 'Delete Strongman Account' option.
 
 ### Short Demo Video
 
-To be published soon!
+May be published someday.
 [Open Strongman Password Manager]: /app/index.php
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzM0ODgyNywxNDQ1Mjk1MjcsOTkxMD
+eyJoaXN0b3J5IjpbLTk4NTIwMjcxMiwxNDQ1Mjk1MjcsOTkxMD
 QwNzk1XX0=
 -->
