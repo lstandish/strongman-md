@@ -47,7 +47,44 @@ So I set out to build my ideal password manager.  Essentially I adopted the extr
 
 Installation is not necessary for most users, since the Strongman project hosts the web app for free public access: [https://strongman.standish.site/app].
 
-If you wish to run the web app on your own server, or to help with development, download the project from the [github repository].  Upload the "app" directory to any location accessible to your php7.1+-enabled web server. Make sure the "data-source" directory is writable by your web server user.  You should also be sure that the site can't be accessed by both the base domain and the www subdomain, so that cookies can work properly.  That's it.  There's no database. Account information is stored in files, one file per master password.
+If you wish to run the web app on your own server, or to help with development, clone the project from the [github repository].  Upload the "app" directory to any location accessible to your php7.1+-enabled web server. Make sure the "data-source" directory is writable by your web server user.  You should also be sure that the site can't be accessed by both the base domain and the www subdomain, so that cookies can work properly. 
+
+There's no database. Account information is stored in files, one file per master password.
+
+If you want the included pre-compressed dependency javascript files to be used, configure your web server accordingly. Here's the configuration for apache2 from [https://httpd.apache.org/docs/2.4/mod/mod_deflate.html].  This can go either in the site's config file, or in .htaccess:
+
+```
+:::apacheconf
+<IfModule mod_headers.c>
+    # Serve gzip compressed CSS and JS files if they exist
+    # and the client accepts gzip.
+    RewriteCond "%{HTTP:Accept-encoding}" "gzip"
+    RewriteCond "%{REQUEST_FILENAME}\.gz" -s
+    RewriteRule "^(.*)\.(css|js)"         "$1\.$2\.gz" [QSA]
+
+    # Serve correct content types, and prevent mod_deflate double gzip.
+    RewriteRule "\.css\.gz$" "-" [T=text/css,E=no-gzip:1]
+    RewriteRule "\.js\.gz$"  "-" [T=text/javascript,E=no-gzip:1]
+
+
+    <FilesMatch "(\.js\.gz|\.css\.gz)$">
+      # Serve correct encoding type.
+      Header append Content-Encoding gzip
+
+      # Force proxies to cache gzipped &
+      # non-gzipped css/js files separately.
+      Header append Vary Accept-Encoding
+    </FilesMatch>
+</IfModule>
+
+```
+
+
+~~~
+Note that strongman uses git submodules to reference dependency source code. So if you want to see the source of the javascript dependencies, you need to check out the modules by running "git submodule init" and "git submodule update".
+
+~~~
+
 
 [https://strongman.standish.site/app]: /app
 [github repository]: https://github.com/lstandish/strongman

@@ -8,6 +8,10 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.44 June 21, 2021
+- Changed submodule dependency folder structure. Checking out the submodule source code (git submodule init and git submodule update) is now optional.
+- Added minified versions of some javascript dependencies. Added gzip compressed versions of javascript files, in case user wants to configure Apache or another web server to serve pre-compressed js files.
+
 #### Version 1.43 June 17, 2021
 - Secure notes field is no longer automatically cleared when username is changed. This facillitates copying changing the domain or username of an entry.
 - Updated dependencies: jquery, jshashes, aes-js, javascript-biginteger, moment, papaparse.
