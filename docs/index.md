@@ -51,7 +51,7 @@ If you wish to run the web app on your own server, or to help with development, 
 
 There's no database. Account information is stored in files, one file per master password.
 
-If you want the included pre-compressed dependency javascript files to be used, configure your web server accordingly. Here's the configuration for apache2 from [https://httpd.apache.org/docs/2.4/mod/mod_deflate.html].  This can go either in the site's config file, or in .htaccess:
+If you want the included pre-compressed dependency javascript files to be used, configure your web server accordingly. Here's the configuration for apache2 from [https://httpd.apache.org/docs/2.4/mod/mod_deflate.html](https://httpd.apache.org/docs/2.4/mod/mod_deflate.html).  This can go either in the site's config file, or in .htaccess:
 
 ```
 :::apacheconf
@@ -110,7 +110,7 @@ myemail@example.com = 7,14,1,,0,1542057929
 
 In this case, **vitacost.com** is the domain name, and **myemail@example.com** is the username. The other profile information is:
 
-```no-highlight
+```
 7: bitfield-encoded character set. "7" means use upper/lowercase letters and numbers, but no special characters.  
 14: password length  
 1: password sequence number (This is incremented to create a new computed password.)  
@@ -190,4 +190,4 @@ As a final note: if a brute force attacker were to obtain a password hash create
 These cookies should not expire for 1000 days, but if you have your browser set to erase cookies upon closing the browser, these (and all other persistent cookies) will be erased, and all the the above settings will be reset to the defaults.
 
 **Q**: Isn't it terribly insecure to copy a password to the clipboard? Clipboard data is available to any user or program on the computer!  
-**A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. [Read more](#the-clipboard).
+**A**: It's true that the clipboard is potentially a security vulnerability. On the other hand, it is the only practical way to transfer complex passwords to browser input fields. [Read more about clipboard security](#the-clipboard).
