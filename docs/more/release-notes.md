@@ -8,6 +8,9 @@ The current members of the Strongman team:
 
 * [@lstandish](https://github.com/lstandish/)
 
+#### Version 1.45 January 22, 2022
+- If Internet connection is lost, no longer set Domain search off.
+
 #### Version 1.44 June 21, 2021
 - Changed submodule dependency folder structure. Checking out the submodule source code (git submodule init and git submodule update) is now optional.
 - Added minified versions of some javascript dependencies. Added gzip compressed versions of javascript files, in case user wants to configure Apache or another web server to serve pre-compressed js files.
